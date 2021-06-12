@@ -2,10 +2,10 @@
 // You can write your code in this editor
 
 // If yes will make platforms
-makePlatforms = false;
+makePlatforms = true;
 
 // Number of platfroms to create
 // Passed in by controller(hopefully)
-platformsToCreate = 0;
+platformsToCreate = 5;
 // Count of platforms created so far.
 createdPlatforms = 0;

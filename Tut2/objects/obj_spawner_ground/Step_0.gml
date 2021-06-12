@@ -1,18 +1,23 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(place_empty(x+50,y,obj_platform))
+if(place_empty(x+32,y,obj_platform)&& active)
 {
-	var temp = instance_create_layer(x+50,y,"Instances",obj_platform);
-	temp.sprite_index = spr_obj_ground_middle;
-
-	// Keep shuffling the block over until 
-	// right next to other block.
+	var temp = instance_create_layer(x+32,y,"Instances",obj_platform);
 	
-	if(place_meeting(temp.x - 1, temp.y, obj_platform))
+	// Check if a sprite before
+	if(!place_meeting(x-32,y,obj_platform))
 	{
-
-		temp.x -= 2;
-		show_debug_message("True");
+		temp.sprite_index = spr_obj_ground_left;	
 	}
+	else if(stop)
+	{
+		temp.sprite_index = spr_obj_ground_right;
+		active = false;	
+	}
+	else
+	{
+	temp.sprite_index = spr_obj_ground_middle;
+	}
+	
 }

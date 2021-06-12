@@ -1,8 +1,6 @@
 /// @description Player Movement and interaction Per Frame?
 // You can write your code in this editor
 
-Delta();
-
 // Inputs.
 
 left = keyboard_check(vk_left);

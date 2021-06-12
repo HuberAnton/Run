@@ -11,12 +11,12 @@ if(makePlatforms)
 	//}
 	
 	// Need to check if creation location is empty
-	if(place_empty(x,y,obj_platform))
+	if(place_empty(x+32,y,obj_platform))
 	{
 	// Create a platfrom at its position.
 	createdPlatforms++;
 	
-	var inst = instance_create_layer(x,y,"Instances",obj_platform);
+	var inst = instance_create_layer(x+32,y,"Instances",obj_platform);
 	
 	// If it is the first piece or last piece we will use the 
 	// specidic sprites otherwise.
