@@ -1,10 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"Delta","path":"scripts/Delta/Delta.yy",},"order":0,},
     {"id":{"name":"spr_obj_ground_left","path":"sprites/spr_obj_ground_left/spr_obj_ground_left.yy",},"order":9,},
     {"id":{"name":"spr_platform_spawner","path":"sprites/spr_platform_spawner/spr_platform_spawner.yy",},"order":12,},
     {"id":{"name":"spr_anim_collectable_01","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"order":11,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":7,},
     {"id":{"name":"obj_spawner_ground","path":"objects/obj_spawner_ground/obj_spawner_ground.yy",},"order":1,},
+    {"id":{"name":"obj_spawner_controller","path":"objects/obj_spawner_controller/obj_spawner_controller.yy",},"order":8,},
     {"id":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"order":5,},
     {"id":{"name":"spr_anim_player_jump_start","path":"sprites/spr_anim_player_jump_start/spr_anim_player_jump_start.yy",},"order":5,},
     {"id":{"name":"spr_obj_ground_right","path":"sprites/spr_obj_ground_right/spr_obj_ground_right.yy",},"order":10,},

@@ -2,11 +2,11 @@
 // You can write your code in this editor
 
 // Pixels perframe of speed
-walkingSpeed = 3.5;
+walkingSpeed = 5.5;
 //walkingSpeed = 0.3;
-breakingSpeed = 1;
+//breakingSpeed = 1;
 
-horizontalTerminalVelocity = 4;
+//horizontalTerminalVelocity = 4;
 
 
 // Movement speeds current.

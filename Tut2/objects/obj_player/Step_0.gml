@@ -1,6 +1,8 @@
 /// @description Player Movement and interaction Per Frame?
 // You can write your code in this editor
 
+Delta();
+
 // Inputs.
 
 left = keyboard_check(vk_left);
@@ -41,18 +43,18 @@ if(place_meeting(x+horizonalSpeed,y,obj_platform))
 	
 }
 
-if(horizonalSpeed > horizontalTerminalVelocity)
-{
-	horizonalSpeed = horizontalTerminalVelocity;
-}
+//if(horizonalSpeed > horizontalTerminalVelocity)
+//{
+//	horizonalSpeed = horizontalTerminalVelocity;
+//}
 
-if(horizonalSpeed < -horizontalTerminalVelocity)
-{
-	horizonalSpeed = -horizontalTerminalVelocity;
-}
+//if(horizonalSpeed < -horizontalTerminalVelocity)
+//{
+//	horizonalSpeed = -horizontalTerminalVelocity;
+//}
 
 
-x += horizonalSpeed;
+x += horizonalSpeed * global.delta_multiplier;
 
 // Vertical collision
 
@@ -72,7 +74,4 @@ if(verticalSpeed > verticalTerminalVelocity)
 }
 
 
-y += verticalSpeed;
-
-
-//y += verticalSpeed;
+y += verticalSpeed * global.delta_multiplier;
