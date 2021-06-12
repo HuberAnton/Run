@@ -9,3 +9,10 @@ makePlatforms = true;
 platformsToCreate = 5;
 // Count of platforms created so far.
 createdPlatforms = 0;
+
+if(!place_empty(x,y,obj_spawner_platform))
+{
+	show_debug_message("Double");	
+	global.activePlatforms--;
+	instance_destroy();
+}

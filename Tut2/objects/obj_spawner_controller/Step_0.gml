@@ -4,14 +4,27 @@
 if(global.activePlatforms <= random_range(0, global.activePlatforms))
 {
 
-repeat(irandom_range(1, 5))
+repeat(irandom_range(2, 2))
 {
-	var temp = instance_create_layer(room_width + 32,irandom_range(160, room_height-100),"Instances",obj_spawner_platform);
+	var tempHeight = irandom_range(100, room_height-50);
 	
-	temp.platformsToCreate = irandom_range(2, 12);
+	// Do not want platforms to spawner on top of each other.
+	if(!place_meeting(room_width + 33, tempHeight, obj_spawner_platform) 
+	// Do not want platforms to spawn right next to old platforms on same row.
+	&& !place_meeting(room_width - 33, tempHeight, obj_platform)
 	
-	temp.makePlatforms = true;
-	global.activePlatforms++;
+	&& !place_meeting(room_width + 32,tempHeight + 32, obj_spawner_platform)
+	
+	&& !place_meeting(room_width + 32,tempHeight - 32, obj_spawner_platform)
+	)
+	{
+		var temp = instance_create_layer(room_width + 32,tempHeight,"Instances",obj_spawner_platform);
+	
+		temp.platformsToCreate = irandom_range(3, 50);
+	
+		temp.makePlatforms = true;
+		global.activePlatforms++;
+	}
 }
 
 }

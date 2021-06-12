@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 global.activePlatforms = 0;
-global.maxPlatforms = 10;
+global.maxPlatforms = 2;
 
 
 global.platformSpeed = 6;

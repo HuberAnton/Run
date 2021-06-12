@@ -11,6 +11,7 @@ if(makePlatforms)
 	//}
 	
 	// Need to check if creation location is empty
+	
 	if(place_empty(x+32,y,obj_platform))
 	{
 	// Create a platfrom at its position.
@@ -35,4 +36,5 @@ if(makePlatforms)
 		inst.sprite_index = spr_obj_ground_middle;	
 	}
 	}
+	
 }
