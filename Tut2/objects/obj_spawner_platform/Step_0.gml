@@ -27,7 +27,8 @@ if(makePlatforms)
 	else if(createdPlatforms == platformsToCreate)
 	{
 		inst.sprite_index = spr_obj_ground_right;
-		makePlatforms = false;
+		global.activePlatforms--;
+		instance_destroy();
 	}
 	else
 	{
