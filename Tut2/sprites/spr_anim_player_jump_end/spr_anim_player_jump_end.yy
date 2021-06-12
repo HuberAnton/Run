@@ -54,7 +54,7 @@
     "spriteId": {"name":"spr_anim_player_jump_end","path":"sprites/spr_anim_player_jump_end/spr_anim_player_jump_end.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

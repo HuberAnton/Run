@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_ground",
-    "path": "sprites/spr_ground/spr_ground.yy",
+    "name": "spr_platform_spawner",
+    "path": "sprites/spr_platform_spawner/spr_platform_spawner.yy",
   },
-  "solid": false,
-  "visible": true,
+  "solid": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ground_dirt",
+  "name": "obj_spawner_platform",
   "tags": [],
   "resourceType": "GMObject",
 }

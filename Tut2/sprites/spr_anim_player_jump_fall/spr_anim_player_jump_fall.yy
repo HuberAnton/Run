@@ -74,7 +74,7 @@
     "spriteId": {"name":"spr_anim_player_jump_fall","path":"sprites/spr_anim_player_jump_fall/spr_anim_player_jump_fall.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

@@ -129,7 +129,7 @@
     "spriteId": {"name":"spr_anim_player_jump_start","path":"sprites/spr_anim_player_jump_start/spr_anim_player_jump_start.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
