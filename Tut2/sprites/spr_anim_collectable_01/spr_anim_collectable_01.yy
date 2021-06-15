@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"a855ee33-2412-40fd-89fd-0e9e43972a0c","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a855ee33-2412-40fd-89fd-0e9e43972a0c","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":{"name":"6611542c-e7c0-4784-8047-41a7cb801a56","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"a855ee33-2412-40fd-89fd-0e9e43972a0c","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":{"name":"9f0ef72f-ef74-492a-8b47-cc4df02e4208","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a855ee33-2412-40fd-89fd-0e9e43972a0c","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":{"name":"6611542c-e7c0-4784-8047-41a7cb801a56","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_anim_collectable_01","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"resourceVersion":"1.0","name":"a855ee33-2412-40fd-89fd-0e9e43972a0c","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"7410220b-791b-4de9-8653-8b1fa26ff324","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7410220b-791b-4de9-8653-8b1fa26ff324","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"LayerId":{"name":"9f0ef72f-ef74-492a-8b47-cc4df02e4208","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -149,7 +149,7 @@
     "spriteId": {"name":"spr_anim_collectable_01","path":"sprites/spr_anim_collectable_01/spr_anim_collectable_01.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 24.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
