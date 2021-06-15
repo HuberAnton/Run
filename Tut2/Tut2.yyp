@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"spr_anime_angel_run","path":"sprites/spr_anime_angel_run/spr_anime_angel_run.yy",},"order":13,},
+    {"id":{"name":"spr_anime_angel_idle","path":"sprites/spr_anime_angel_idle/spr_anime_angel_idle.yy",},"order":12,},
     {"id":{"name":"spr_obj_ground_left","path":"sprites/spr_obj_ground_left/spr_obj_ground_left.yy",},"order":9,},
     {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},"order":3,},
     {"id":{"name":"scr_rooms","path":"scripts/scr_rooms/scr_rooms.yy",},"order":1,},
